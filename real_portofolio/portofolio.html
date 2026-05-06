@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About – Isaac</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="about">
+
+<nav>
+    <span class="nav-logo">Isaac</span>
+
+    <div class="nav-links">
+        <div class="nav-slider"></div>
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="portofolio.html" class="active">Projects</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+        </ul>
+    </div>
+</nav>
+
+<div class="content">
+
+    <section class="about-main">
+
+        <div class="about-text">
+            <h1>My projects</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+            <a href="contact.html" class="btn">Contact Me</a>
+        </div>
+
+        <div class="about-image">
+            <div class="image-container">
+                <img src="keep_ (2).JPG" alt="Profile">
+            </div>
+        </div>
+
+    </section>
+
+
+  <section class="projects-carousel-section">
+    <div class="carousel-wrapper">
+        <button class="carousel-arrow left" id="prevBtn" aria-label="Previous project">&#8592;</button>
+
+        <div class="carousel-track" id="carouselTrack">
+
+            <div class="carousel-slide active">
+                <div class="project-info">
+                    <h3>Escape Room Game</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <iframe src="/projects/escape_room/HTML/Startpage.html" frameborder="0" loading="lazy"></iframe>
+            </div>
+
+            <div class="carousel-slide">
+                <div class="project-info">
+                    <h3>Portofolio</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <iframe src="portofolio.html" frameborder="0" loading="lazy"></iframe>
+            </div>
+
+            <div class="carousel-slide">
+                <div class="project-info">
+                    <h3>Project 3</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="triplet-video">
+                <iframe src="projects/video_clip/Beste_område.mp4" frameborder="0"></iframe>
+                <iframe src="projects/video_clip/Kvinne_pa_gronland.mp4" frameborder="0"></iframe>
+                <iframe src="projects/video_clip/trump_ai_finalcut.mp4" frameborder="0"></iframe>
+                </div>
+
+            </div>
+
+        </div>
+
+        <button class="carousel-arrow right" id="nextBtn" aria-label="Next project">&#8594;</button>
+    </div>
+
+    <div class="carousel-dots" id="carouselDots"></div>
+</section>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
